@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: auto;
+    max-width: 1024px;
+    justify-content: space-between;
+    
+    font-size: 2.5rem;
+    color: rebeccapurple;
+    font-weight: 600;
+
+}
+
+.header-nevbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 40%;
+    font-size: 1.8rem;
+    color: rgb(1, 8, 85);
+    font-weight: 500;
+    
+}
